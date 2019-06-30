@@ -74,7 +74,7 @@
             <Label layoutX="155.0" layoutY="424.0" styleClass="label-common" text="%label.contact.us" />
             <JFXButton layoutX="456.0" layoutY="477.0" onAction="#jbtnCloseAction" prefHeight="45.0" prefWidth="121.0" styleClass="jfx-button-close" text="%button.close" />
             <JFXButton layoutX="223.0" layoutY="167.0" prefHeight="56.0" prefWidth="180.0" styleClass="jfx-button-start" text="%button.start" />
-            <ImageView fitHeight="114.0" fitWidth="275.0" layoutX="176.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="139.0" fitWidth="369.0" layoutX="129.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/loader.gif" />
                </image>

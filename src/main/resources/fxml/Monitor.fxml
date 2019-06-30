@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="551.0" prefWidth="625.0" stylesheets="@../css/general.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cecilemrbackend.controller.MonitorController">
+    <children>
+        <Pane prefHeight="448.0" prefWidth="501.0" style="-fx-background-color: white;">
+            <children>
+                <ImageView fitHeight="106.0" fitWidth="153.0" layoutX="72.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../img/cecil_logo.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="195.0" layoutY="305.0" text="Cecil" textFill="#1c245e">
+                    <font>
+                        <Font name="System Bold" size="39.0" />
+                    </font>
+                </Label>
+                <Label layoutX="280.0" layoutY="305.0" text="Software" textFill="#1c245e">
+                    <font>
+                        <Font size="39.0" />
+                    </font>
+                </Label>
+                <Label layoutX="443.0" layoutY="314.0" text="EMR">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+                </Label>
+                <Separator layoutX="434.0" layoutY="277.0" orientation="VERTICAL" prefHeight="105.0" prefWidth="7.0" />
+                <Label fx:id="lblVersion" alignment="CENTER_RIGHT" layoutX="283.0" layoutY="350.0" prefHeight="18.0" prefWidth="145.0" styleClass="label-light" text="%label.version" />
+                <Label layoutX="69.0" layoutY="404.0" styleClass="label-common" text="%label.copyright" />
+                <Label layoutX="155.0" layoutY="424.0" styleClass="label-common" text="%label.contact.us" />
+                <JFXButton layoutX="456.0" layoutY="477.0" onAction="#jbtnCloseAction" prefHeight="45.0" prefWidth="121.0" styleClass="jfx-button-close" text="%button.close" />
+            <JFXButton layoutX="223.0" layoutY="167.0" prefHeight="56.0" prefWidth="180.0" styleClass="jfx-button-start" text="%button.start" />
+            <ImageView fitHeight="114.0" fitWidth="275.0" layoutX="176.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/loader.gif" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="448.0" prefWidth="501.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="106.0" fitWidth="153.0" layoutX="72.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/cecil_logo.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="195.0" layoutY="305.0" text="Cecil" textFill="#1c245e">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="280.0" layoutY="305.0" text="Software" textFill="#1c245e">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="443.0" layoutY="314.0" text="EMR">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+            <Separator layoutX="434.0" layoutY="277.0" orientation="VERTICAL" prefHeight="105.0" prefWidth="7.0" />
+            <Label fx:id="lblVersion1" alignment="CENTER_RIGHT" layoutX="283.0" layoutY="350.0" prefHeight="18.0" prefWidth="145.0" styleClass="label-light" text="%label.version" />
+            <Label layoutX="69.0" layoutY="404.0" styleClass="label-common" text="%label.copyright" />
+            <Label layoutX="155.0" layoutY="424.0" styleClass="label-common" text="%label.contact.us" />
+            <JFXButton layoutX="456.0" layoutY="477.0" onAction="#jbtnCloseAction" prefHeight="45.0" prefWidth="121.0" styleClass="jfx-button-close" text="%button.close" />
+            <JFXButton layoutX="223.0" layoutY="167.0" prefHeight="56.0" prefWidth="180.0" styleClass="jfx-button-start" text="%button.start" />
+            <ImageView fitHeight="114.0" fitWidth="275.0" layoutX="176.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/loader.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</StackPane>
